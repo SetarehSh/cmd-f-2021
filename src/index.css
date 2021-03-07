@@ -53,6 +53,10 @@ main {
     color: #FFFFFF;
 }
 
+.register li:hover {
+    background-color: #985A31;
+}
+
 .register li {
     background-color: #C66348;
     border-radius: 15px;
@@ -106,6 +110,7 @@ aside {
     75% {transform: rotate(10deg);}
     100% {transform: rotate(0deg);}
 }
+
 .storyText li {
     background-color: #FFFFFF;
     border-radius: 15px;
@@ -119,15 +124,25 @@ h2 {
     margin-bottom: 0;
 }
 
+/* Our Services Section */
+.video {
+    background-color: #F0E6DE;
+}
+
+#servicesVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+}
 .services {
     display: flex;
     flex-direction: column;
-    background-color: #C66348;
+    background-color: #F0E6DE;
     text-align: center;
 }
 
 .services h2 {
-    color: white;
+    color: #1C303F;
 }
 
 .services p {
@@ -136,6 +151,8 @@ h2 {
     color: #1C303F;
     list-style-type: none;
 }
+
+/* End of Our Services Section */
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
     main {
