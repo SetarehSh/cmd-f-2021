@@ -6,6 +6,7 @@
 }
 
 footer {
+    position: relative;
     background-color:#F5E7E0;
     padding: 2vh; 
     display: flex;
