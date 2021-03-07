@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./src/nav.css">
-    <link rel="stylesheet" href="./src/register.css">
-    <link rel="stylesheet" href="./src/footer.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- Fonts Used-->
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <title>Embrace Foundation</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./src/nav.css">
+  <link rel="stylesheet" href="./src/register.css">
+  <link rel="stylesheet" href="./src/footer.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- Fonts Used-->
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <title>Embrace Foundation</title>
 </head>
+
 <body>
   <nav>
-    <img id="logo" src="./images/logo/Original on Transparent.png"
-      alt="Embrace Foundation Logo with Sideways Heart">
+    <img id="logo" src="./images/logo/Original on Transparent.png" alt="Embrace Foundation Logo with Sideways Heart">
     <ul>
-      <li><a href="./index.html">Home</a></li>
+      <li><a href="./home.html">Home</a></li>
       <li><a href="./events.html">Events</a></li>
       <!-- <li><a href="">Let Us Help</a></li> -->
       <!-- <li><a href="">Help Us</a></li> -->
@@ -32,117 +33,104 @@
   </nav>
   <div class="wrapper">
     <main>
-    <h1 id="welcome"> Registration </h1>
-    <form id="registration" >
-      <ul>  
-        <li>
-          <label for="firstName">First Name: </label>
-          <input
-            type="text"
-            id="firstName"
-            name="firstName"
-            placeholder="Enter first name"
-          />
-        </li> 
-        
-        <li>
-          <label for="lastName">Last Name: </label>
-          <input
-            type="text"
-            id="lastName"
-            name="lastName"
-            placeholder="Enter last name"
-          />
-        </li>
+      <h1 id="welcome"> Registration </h1>
+      <form id="registration">
+        <ul>
+          <li>
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter first name" />
+          </li>
 
-        <li> 
-          <label for="email">Email: </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter Email"
-          />
-        </li>
-        
-        <li>
-          <label for="password">Password: </label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Enter Password"
-          />
-        </li>
+          <li>
+            <label for="lastName">Last Name: </label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter last name" />
+          </li>
 
-        <li>
-        <label for="confirmPassword">Confirm Password: </label>
-          <input
-            type="password"
-            id="confirmPassword"
-            name="confirmPassword"
-            placeholder="Confirm Password"
-          />
-        </li>
-        
-        <li>
-          <label for="language">Language: </label>
-          <input
-            type="text"
-            id="language"
-            name="language"
-            placeholder="Enter your mother language"
-          />
-        </li>
+          <li>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" />
+          </li>
 
-        <li>
-          <label for ="gender"> Select your gender </label>
-          <select name="gender">
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-            <option value="other">Other</option>
-          </select>
-        </li>
-      </ul>
+          <li>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" />
+          </li>
 
-      <div class='agreement'>
-        A Terms & Conditions document for a website is an agreement the website makes with its users about how to use the site properly, as well as the obligations and responsibilities of each. Most websites, especially commercial websites, have a portion of the site devoted to Terms & Conditions, because it's the most important document for letting site users know what is expected of them.For owner/operators running any kind of business or personal website that allows user interaction, it's a good idea to have a clearly laid out document with all the Terms & Conditions required.
-        One of the primary functions of a Terms & Conditions document is to outline what will happen in a variety of different possible situations, including if the user breaks the rules and must have his/her account terminated. If the user goes in knowing what to expect, it is less likely that there will be problems between the user and the website down the road.
-        The Terms & Conditions document on any website creates a legally binding set of rules for the user, as well as, in most cases, the website owner. It's a place to set up expectations for each of the parties and ensure that the use of the website runs smoothly for both.
-        This document is different than a Privacy Policy. Though a Terms & Conditions document may contain some information about the website owner's privacy practices, a Privacy Policy is a much more detailed document, comprehensively covering each aspect of user privacy.
-        <br>
-        <br>
-        <input type="checkbox" name="terms" id="agreeCheckbox">  I Agree to the Terms & Conditions
-        <input type="submit" name="submit" id="submitBtn" style="display: none">
-      </div>
-    </form>
-  </main>
+          <li>
+            <label for="confirmPassword">Confirm Password: </label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" />
+          </li>
+
+          <li>
+            <label for="language">Language: </label>
+            <input type="text" id="language" name="language" placeholder="Enter your mother language" />
+          </li>
+
+          <li>
+            <label for="gender"> Select your gender </label>
+            <select name="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="other">Other</option>
+            </select>
+          </li>
+        </ul>
+
+        <div class='agreement'>
+          A Terms & Conditions document for a website is an agreement the website makes with its users about how to use
+          the site properly, as well as the obligations and responsibilities of each. Most websites, especially
+          commercial websites, have a portion of the site devoted to Terms & Conditions, because it's the most important
+          document for letting site users know what is expected of them.For owner/operators running any kind of business
+          or personal website that allows user interaction, it's a good idea to have a clearly laid out document with
+          all the Terms & Conditions required.
+          One of the primary functions of a Terms & Conditions document is to outline what will happen in a variety of
+          different possible situations, including if the user breaks the rules and must have his/her account
+          terminated. If the user goes in knowing what to expect, it is less likely that there will be problems between
+          the user and the website down the road.
+          The Terms & Conditions document on any website creates a legally binding set of rules for the user, as well
+          as, in most cases, the website owner. It's a place to set up expectations for each of the parties and ensure
+          that the use of the website runs smoothly for both.
+          This document is different than a Privacy Policy. Though a Terms & Conditions document may contain some
+          information about the website owner's privacy practices, a Privacy Policy is a much more detailed document,
+          comprehensively covering each aspect of user privacy.
+          <br>
+          <br>
+          <input type="checkbox" name="terms" id="agreeCheckbox"> I Agree to the Terms & Conditions
+          <input type="submit" name="submit" id="submitBtn" style="display: none">
+        </div>
+      </form>
+    </main>
     <script type="text/javascript" src="scripts/validator.js"></script>
   </div>
   <footer>
     <div id="footerNav">
-        <ul>
-            <li><a href="./register.html">Become a Member</a></li>
-            <li><a href="./aboutus.html">About Us</a></li>
-            <li><a href="./resources.html">Resources</a></li>
-        </ul>
-        <ul>
-            <li><a href="">Contact Us</a></li>
-            <li>3700 Willingdon Ave</li>
-            <li>604-432-8612</li>
-            <a href="mailto:askembracefoundation@gmail.com">askembracefoundation@gmail.com</a>  
-        </ul>
-        <ul>
+      <ul>
+        <li><a href="./register.html">Become a Member</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+        <li><a href="./resources.html">Resources</a></li>
+      </ul>
+      <ul>
+        <li><a href="">Contact Us</a></li>
+        <li>3700 Willingdon Ave</li>
+        <li>604-432-8612</li>
+        <a href="mailto:askembracefoundation@gmail.com">askembracefoundation@gmail.com</a>
+      </ul>
+      <ul>
     </div>
     <ul>
-        <a href="#" title="This link would go to a Facebook page if this website was operational."><img class="socialMedia" src="./img/social media icons/facebook.png" alt="Facebook Icon"></a>
-        <a href="#" title="This link would go to a Instagram page if this website was operational."><img class="socialMedia" src="./img/social media icons/Instagram.png" alt="Instagram Icon"></a>
-        <a href="#" title="This link would go to a Twitter page if this website was operational."><img class="socialMedia" src="./img/social media icons/Twitter.png" alt="Twitter Icon"></a>
-        <a href="#" title="This link would go to a YouTube page if this website was operational."><img class="socialMedia" src="./img/social media icons/YouTube.png" alt="Youtube Icon"></a>
-        <ul class="copyright">
-            <li>© All rights reserved 2021</li>
-        </ul>
+      <a href="#" title="This link would go to a Facebook page if this website was operational."><img
+          class="socialMedia" src="./img/social media icons/facebook.png" alt="Facebook Icon"></a>
+      <a href="#" title="This link would go to a Instagram page if this website was operational."><img
+          class="socialMedia" src="./img/social media icons/Instagram.png" alt="Instagram Icon"></a>
+      <a href="#" title="This link would go to a Twitter page if this website was operational."><img class="socialMedia"
+          src="./img/social media icons/Twitter.png" alt="Twitter Icon"></a>
+      <a href="#" title="This link would go to a YouTube page if this website was operational."><img class="socialMedia"
+          src="./img/social media icons/YouTube.png" alt="Youtube Icon"></a>
+      <ul class="copyright">
+        <li>© All rights reserved 2021</li>
+      </ul>
     </ul>
-</footer>
+  </footer>
 </body>
+
 </html>
