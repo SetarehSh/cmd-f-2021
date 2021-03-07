@@ -1,29 +1,46 @@
-.categoryContainer{
+.wrapper{
     display: grid;
-    justify-content: center;
+    grid-template-rows: auto auto;
+}
+
+.categoryContainer{
+    grid-row: 2;
+    display: grid;
+    margin-top: 50px;
     grid-template-columns: auto auto auto ;
     grid-template-rows: auto auto;
     grid-gap: 50px 100px;
     margin-bottom: 50px;
 }
-l
+.mainEvents ul {
+    border: 5px solid pink;
+    column-count: 2;
+    text-align: center;
+}
 li{
     line-height: 20px;
     list-style: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 main{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    grid-row:1;
 }
-.mainLeft{
-    grid-column: 1;
+.eventTop{
     display: grid;
-}
-#mainImg {
+    grid-template-columns: 1fr 1fr;
     grid-row: 1;
-    grid-column: 2;
+    align-items: center;
+}
+.mainEvents{
+    grid-row: 2;
+}
+
+#mainImg {
     width: 400px;
 }
 .categoryContainerBox{
@@ -34,6 +51,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 .owningMotherHood{
     background-color: pink;
