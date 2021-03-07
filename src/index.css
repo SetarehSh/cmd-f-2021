@@ -2,6 +2,7 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Hero Image Area */
 
 main {
     display: flex;
@@ -12,7 +13,7 @@ main {
 }
 
 #heroStatement {
-    padding-top: 10%;
+    padding-top: 8%;
     max-width: 1045px;
     margin-left: 8%;
     font-family: 'PT Sans', sans-serif;
@@ -22,7 +23,7 @@ main {
 }
 
 #heroStatement p {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 #welcome {
@@ -37,11 +38,44 @@ main {
     min-height: 400px;
 }
 
+.register {
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.register a {
+    font-size: (20px + 1vh);
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.register li {
+    background-color: #C66348;
+    border-radius: 15px;
+    padding: 1vh;
+}
+
+/* End of Hero Image Area */
+
 aside {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     height: 100vh;
     width: 100%;
     background-color: #E3BBA7;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: calc(10px + 5vh);
+    color: #1C303F;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
@@ -63,14 +97,24 @@ aside {
     }
 
     #heroStatement {
+        order: 2;
         margin: 0 auto;
         padding: 0;
+    }
+
+    #hero {
+        order: 1;
     }
     
     #logo {
         margin-left: 1vh;
         height: 8vh;
         width: auto;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
     }
 }
 
