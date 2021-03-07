@@ -1,0 +1,64 @@
+.category_container{
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
+    grid-gap: 50px 100px;
+   
+}
+
+.OwningMotherHood{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;  
+    
+}
+
+.Relationship_lifeSupport{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+    
+}
+
+.Love_Yourself{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.English_Corner{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.RecyclingNutshell{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+
+.Parenting{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; 
+}
