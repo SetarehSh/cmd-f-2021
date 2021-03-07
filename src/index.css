@@ -1,12 +1,120 @@
 body {
-    background-color: #F5E7E0;
+    background-color: #FFFFFF;
 }
 
-#wrapper {
-    width: 95%;
-    margin: 0 auto;
+/* Hero Image Area */
+
+main {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 15vh;
+    height: calc(100vh - 16vh);
 }
 
-#logo {
-    max-width: 300px;
+#heroStatement {
+    padding-top: 8%;
+    max-width: 1045px;
+    margin-left: 8%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: calc(16px + 1vh);
+    text-align: center;
+    color: #1C303F;
 }
+
+#heroStatement p {
+    max-width: 1000px;
+}
+
+#welcome {
+    font-family: 'Caveat', cursive;
+    font-size: calc(30px + 5vh);
+    color: #C66348;
+}
+
+#hero {
+    object-fit: contain;
+    min-width: 420px;
+    min-height: 400px;
+}
+
+.register {
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.register a {
+    font-size: (20px + 1vh);
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.register li {
+    background-color: #C66348;
+    border-radius: 15px;
+    padding: 1vh;
+}
+
+/* End of Hero Image Area */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #E3BBA7;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: calc(10px + 5vh);
+    color: #1C303F;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    main {
+        padding-top: 10vh;
+        height: fit-content;
+    }
+
+    #heroStatement {
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    main {
+        flex-direction: column;
+        justify-items: center;
+        height: fit-content;
+    }
+
+    #heroStatement {
+        order: 2;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #hero {
+        order: 1;
+    }
+    
+    #logo {
+        margin-left: 1vh;
+        height: 8vh;
+        width: auto;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
