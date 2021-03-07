@@ -17,6 +17,7 @@ nav ul {
     display: flex;
     list-style-type: none;
     white-space: nowrap;
+    margin-right: 4vh;
 }
 
 nav a {
@@ -33,9 +34,9 @@ nav a:hover {
 }
 
 #logo {
-    margin-left: 2vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-left: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     height: 8vh;
     width: auto;
 }

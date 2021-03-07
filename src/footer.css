@@ -6,7 +6,6 @@
 }
 
 footer {
-    position: relative;
     background-color:#F5E7E0;
     padding: 2vh; 
     display: flex;
@@ -41,4 +40,4 @@ footer a:hover{
     text-decoration: none;
     color:#C66358; 
     text-align: left;
-} 
+}
