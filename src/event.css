@@ -7,6 +7,27 @@
    
 }
 
+li{
+    line-height: 20px;
+    list-style: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+;
+.main-left{
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 1fr 4fr; 
+    grid-template-rows: ;
+
+}
+.main img {
+    grid-row: 1;
+    grid-column: 2;
+}
 .OwningMotherHood{
     background-color: pink;
     height: 200px;
