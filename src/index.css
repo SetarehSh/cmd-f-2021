@@ -66,10 +66,24 @@ aside {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh;
     width: 100%;
     background-color: #E3BBA7;
     text-align: center;
+}
+
+.stories ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.story {
+    background-color: white;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 h2 {
@@ -86,6 +100,11 @@ h2 {
 
     #heroStatement {
         padding-top: 5%;
+    }
+
+    .story {
+    width: 200px;
+    height: 200px;
     }
 }
 
@@ -114,6 +133,10 @@ h2 {
 
     .register {
         display: flex;
+        flex-direction: column;
+    }
+
+    .stories ul {
         flex-direction: column;
     }
 }

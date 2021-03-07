@@ -8,7 +8,7 @@ footer {
     color:#C66358; 
     font-family: 'Signika', sans-serif;
     font-size: calc(10px + 0.8vh);
-    display: flex;
+    object-fit: contain;
 }
 
 footer li{
@@ -42,4 +42,17 @@ footer a:hover{
 
 .copyright {
     text-align: right;
+}
+
+@media only screen and (max-width: 599px) {
+    footer {
+        flex-direction: column;
+    }
+
+    #footerNav {
+        flex-direction: column;
+    }
+    .socialMedia {
+        flex-direction: column;
+    }
 }
