@@ -1,5 +1,6 @@
 body {
     background-color: #FFFFFF;
+    overflow-x:hidden;
 }
 
 /* Hero Image Area */
@@ -203,6 +204,7 @@ td {
 .community {
     display: flex;
     justify-content: center;
+    padding-top: 15vh;
 }
 
 .community img {
