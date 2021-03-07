@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 15vh;
+  height: calc(100vh - 16vh);
+  padding: 35px;
+}
+
+#welcome {
+  font-family: 'Caveat', cursive;
+  font-size: calc(30px + 5vh);
+  color: #C66348;
+  
+}
+
+#registration {
+  margin: 50px;
+}
+
+#registration ul{
+  font-family: 'PT Sans', sans-serif;
+  font-size: calc(16px + 1vh);
+  color: #1C303F;
+  text-align: left;
+  border-radius: 12px;
+  margin-top: 30px;
+  
+}
+#registration ul li {
+  list-style:none; 
+  padding: 10px;
+  
+}
+.agreement {
+ 
+  font-family: 'PT Sans', sans-serif;
+  font-size: calc(8px + 1vh);
+  color: #1C303F;
+  text-align: left;
+  margin-left: 45px;
+}
+
+#submitBtn{
+  color: #F5E7E0; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: calc(11px + 1vh);
+  background-color: #C66348;
+  text-align: center;
+  border-style: solid;
+  border-radius: 12px;
+}
