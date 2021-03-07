@@ -8,21 +8,19 @@ main {
     display: flex;
     position: relative;
     justify-content: space-between;
-    padding-top: 15vh;
+    padding-top: 5vh;
     /* height: calc(100vh - 16vh); */
     padding-bottom: 20vh;
 
 }
 
 #heroStatement {
-    padding-top: 8%;
     margin-left: 8%;
     font-family: 'PT Sans', sans-serif;
     font-size: calc(16px + 1vh);
     text-align: left;
     color: #1C303F;
 }
-
 
 #welcome {
     font-family: 'Caveat', cursive;
@@ -35,10 +33,6 @@ main {
     min-width: 420px;
     min-height: 400px;
 }
-
-
-
-
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
     main {
@@ -53,8 +47,6 @@ main {
     footer{
         bottom: 0;
     }
-
-
 }
 
 @media only screen and (max-width: 599px) {
@@ -78,7 +70,4 @@ main {
         height: 8vh;
         width: auto;
     }
-
-
 }
-
