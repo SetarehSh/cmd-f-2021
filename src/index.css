@@ -148,8 +148,8 @@ h2 {
 .services {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 .services h2 {
@@ -168,6 +168,7 @@ h2 {
     margin-bottom: 5vh;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2vh;
     border: 5px solid pink;
     border-radius: 15px;
 }
@@ -276,5 +277,4 @@ td {
     .stories ul {
         flex-direction: column;
     }
-
 }
