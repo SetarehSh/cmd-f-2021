@@ -25,17 +25,22 @@ nav a {
     font-size: calc(10px + 1vh);
     text-transform: uppercase;
     text-decoration: none;
-    padding: 2vh;
+    padding: 10px;
 }
 
 nav a:hover {
     color: #985A41;
+    border-bottom-style: solid;
 }
 
 #logo {
     margin-left: 2vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    height: 8vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 6vh;
     width: auto;
+}
+
+#home:hover {
+    border-bottom-style: none;
 }

@@ -2,7 +2,6 @@
     display: grid;
     grid-template-rows: auto auto;
 }
-
 .categoryContainer{
     grid-row: 2;
     display: grid;
@@ -11,24 +10,26 @@
     grid-template-rows: auto auto;
     grid-gap: 50px 100px;
     margin-bottom: 50px;
+    justify-content: center;
+    padding-top: 5vh;
 }
 .mainEvents ul {
     border: 5px solid pink;
     column-count: 2;
     text-align: center;
-}
-li{
-    line-height: 20px;
-    list-style: none;
-    padding: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: calc(8px + 1vh);
+    list-style-type: none;
+    color: #1C303F;
 }
 
-main{
+main {
     display: grid;
     grid-template-rows: auto auto;
     margin-bottom: 20px;
     margin-left: 20px;
-    grid-row:1;
+    grid-row: 1;
+    justify-content: center;
 }
 .eventTop{
     display: grid;
@@ -39,7 +40,6 @@ main{
 .mainEvents{
     grid-row: 2;
 }
-
 #mainImg {
     width: 400px;
 }
@@ -52,7 +52,18 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    font-family: 'Caveat', cursive;
+    font-size: 1.75em;
+    color: #C66348;
 }
+
+@keyframes tinyWiggle {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-1deg);}
+    75% {transform: rotate(1deg);}
+    100% {transform: rotate(0deg);}
+}
+
 .owningMotherHood{
     background-color: pink;
 }
@@ -66,8 +77,23 @@ main{
     background-color: pink;
 }
 .recyclingNutshell{
-    background-color: green
+    background-color: pink;
 }
 .parenting{
     background-color: pink;
 }
+
+#welcome {
+    font-family: 'Caveat', cursive;
+    font-size: calc(25px + 5vh);
+    color: #C66348;
+    animation: tinyWiggle 5s infinite;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .categoryContainer {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
