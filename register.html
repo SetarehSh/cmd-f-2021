@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+  <h1> Registration  </h1>
+<body>
+  <form id="registration" >
+    <ul>  
+      <li>
+        <label for="firstName">First Name: </label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Enter first name"
+        />
+      </li> 
+      
+      <li>
+        <label for="lastName">Last Name: </label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Enter last name"
+        />
+      </li>
+
+      <li> 
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter Email"
+        />
+      </li>
+      
+      <li>
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+        />
+      </li>
+
+      <li>
+      <label for="confirmPassword">Confirm Password: </label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="Confirm Password"
+        />
+      </li>
+      
+      <li>
+        <label for="language">Language: </label>
+        <input
+          type="text"
+          id="Language"
+          name="language"
+          placeholder="Enter your mother language"
+        />
+      </li>
+
+      <li>
+        <label for ="gender"> Select your gender </label>
+        <select name="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Other</option>
+        </select>
+      </li>
+    </ul>
+    
+    <div class='agreement'>
+      A Terms & Conditions document for a website is an agreement the website makes with its users about how to use the site properly, as well as the obligations and responsibilities of each. Most websites, especially commercial websites, have a portion of the site devoted to Terms & Conditions, because it's the most important document for letting site users know what is expected of them.For owner/operators running any kind of business or personal website that allows user interaction, it's a good idea to have a clearly laid out document with all the Terms & Conditions required.
+      One of the primary functions of a Terms & Conditions document is to outline what will happen in a variety of different possible situations, including if the user breaks the rules and must have his/her account terminated. If the user goes in knowing what to expect, it is less likely that there will be problems between the user and the website down the road.
+      The Terms & Conditions document on any website creates a legally binding set of rules for the user, as well as, in most cases, the website owner. It's a place to set up expectations for each of the parties and ensure that the use of the website runs smoothly for both.
+      This document is different than a Privacy Policy. Though a Terms & Conditions document may contain some information about the website owner's privacy practices, a Privacy Policy is a much more detailed document, comprehensively covering each aspect of user privacy.
+      <br>
+      <input type="checkbox" name="terms">  I Agree Terms & Coditions
+      <br><br>
+    </div>
+
+    <input type="submit" name="submit" id="submit">
+  </form>
+  <script type="text/javascript" src="scripts/validator.js"></script>
+  </body>
+  </html>
