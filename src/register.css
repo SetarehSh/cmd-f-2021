@@ -13,8 +13,8 @@ main {
 #registration ul{
   font-family: 'PT Sans', sans-serif;
   font-size: calc(16px + 1vh);
-  text-align: left;
   color: #1C303F;
+  text-align: left;
 }
 #registration ul li {
   list-style: none;
