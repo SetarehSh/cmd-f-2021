@@ -1,8 +1,11 @@
 main {
   display: flex;
+  flex-direction: column;
   position: relative;
+  align-items: center;
   justify-content: space-between;
-  padding-top: 15vh;
+  text-align: center;
+  padding-top: 30px;
   height: calc(100vh - 16vh);
 }
 #welcome {
@@ -14,11 +17,16 @@ main {
   font-family: 'PT Sans', sans-serif;
   font-size: calc(16px + 1vh);
   color: #1C303F;
-  text-align: left;
 }
 #registration ul li {
   list-style: none;
 }
 .agreement {
   margin-bottom: 40px;
+}
+#submit{
+  
+}
+#mainImg {
+  width: 400px;
 }
