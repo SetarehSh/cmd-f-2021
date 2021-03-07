@@ -18,9 +18,9 @@ main {
 }
 
 #hero {
-    height: 90%;
-    min-width: 527px;
-    min-height: 538px;
+    object-fit:contain;
+    min-width: 420px;
+    min-height: 400px;
 }
 
 aside {
