@@ -1,0 +1,73 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.categoryContainer{
+    grid-row: 2;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
+    grid-gap: 50px 100px;
+    margin-bottom: 50px;
+}
+.mainEvents ul {
+    border: 5px solid pink;
+    column-count: 2;
+    text-align: center;
+}
+li{
+    line-height: 20px;
+    list-style: none;
+    padding: 5px;
+}
+
+main{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    grid-row:1;
+}
+.eventTop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1;
+    align-items: center;
+}
+.mainEvents{
+    grid-row: 2;
+}
+
+#mainImg {
+    width: 400px;
+}
+.categoryContainerBox{
+    background-color: pink;
+    height: 200px;
+    width:200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.owningMotherHood{
+    background-color: pink;
+}
+.relationshipLifeSupport{
+    background-color: pink;
+}
+.loveYourself{
+    background-color: pink;
+}
+.englishCorner{
+    background-color: pink;
+}
+.recyclingNutshell{
+    background-color: green
+}
+.parenting{
+    background-color: pink;
+}

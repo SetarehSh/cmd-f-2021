@@ -39,6 +39,7 @@ function submit(event) {
       if (checkLength (language)) {
         if (validatePassword(password)) {
           location.replace("./dashboard.html");
+
           break;
         }
       }
