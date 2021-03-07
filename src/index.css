@@ -29,6 +29,7 @@ main {
     font-family: 'Caveat', cursive;
     font-size: calc(25px + 5vh);
     color: #C66348;
+    animation: tinyWiggle 5s infinite;
 }
 
 #hero {
@@ -88,6 +89,7 @@ aside {
     width: 300px;
     height: 300px;
 }
+
 .storyText {
     font-family: 'PT Sans', sans-serif;
     font-size: calc(16px + 1vh);
@@ -102,6 +104,13 @@ aside {
 
 .emoji {
     animation: wiggle 2s infinite;
+}
+
+@keyframes tinyWiggle {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-1deg);}
+    75% {transform: rotate(1deg);}
+    100% {transform: rotate(0deg);}
 }
 
 @keyframes wiggle {
@@ -122,6 +131,7 @@ h2 {
     font-size: calc(10px + 5vh);
     color: #1C303F;
     margin-bottom: 0;
+    animation: tinyWiggle 5s infinite;
 }
 
 /* Our Services Section */
@@ -137,7 +147,7 @@ h2 {
 .services {
     display: flex;
     flex-direction: column;
-    background-color: #FFE2E6;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
@@ -158,6 +168,19 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid pink;
+    border-radius: 15px;
+}
+
+#calendar a {
+    text-decoration: none;
+    color: #1C303F;
+    background-color: pink;
+    border-radius: 50%;
+    padding: 1vh;
+}
+
+#calendar a:hover {
+    background-color: plum;
 }
 
 th {
