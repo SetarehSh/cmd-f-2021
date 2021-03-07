@@ -1,8 +1,13 @@
-.wrapper{
+body {
+    overflow-x:hidden;
+}
+
+.wrapper {
     display: grid;
     grid-template-rows: auto auto;
 }
-.categoryContainer{
+
+.categoryContainer {
     grid-row: 2;
     display: grid;
     margin-top: 50px;
@@ -11,7 +16,7 @@
     grid-gap: 50px 100px;
     margin-bottom: 50px;
     justify-content: center;
-    padding-top: 5vh;
+    padding-top: 10vh;
 }
 .mainEvents ul {
     border: 5px solid pink;
@@ -21,6 +26,7 @@
     font-size: calc(8px + 1vh);
     list-style-type: none;
     color: #1C303F;
+    padding: 2vh;
 }
 
 main {
@@ -40,9 +46,15 @@ main {
 .mainEvents{
     grid-row: 2;
 }
+
+.mainEvents li {
+    padding-bottom: 1vh;
+}
+
 #mainImg {
     width: 400px;
 }
+
 .categoryContainerBox{
     background-color: pink;
     height: 200px;
@@ -55,6 +67,7 @@ main {
     font-family: 'Caveat', cursive;
     font-size: 1.75em;
     color: #C66348;
+    animation: tinyWiggle 2s infinite;
 }
 
 @keyframes tinyWiggle {
