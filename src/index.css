@@ -1,5 +1,7 @@
 body {
-    background-color: #F5E7E0;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
 }
 
 #wrapper {
@@ -7,6 +9,34 @@ body {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5E7E0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    color: #C66358; 
+    font-family: 'Signika', sans-serif;
+    font-size: calc(12px + 0.5vh);
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 2vh;
+}
+
+nav a:hover {
+    color: #985A41;
+}
+
 #logo {
-    max-width: 300px;
+    margin-left: 1vh;
+    height: 8vh;
+    width: auto;
 }
