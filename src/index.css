@@ -124,12 +124,20 @@ h2 {
 
 .services {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color: #C66348;
+    text-align: center;
 }
 
 .services h2 {
     color: white;
+}
+
+.services p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: calc(16px + 1vh);
+    color: #1C303F;
+    list-style-type: none;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
