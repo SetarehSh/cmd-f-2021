@@ -3,7 +3,6 @@ body {
 }
 
 /* Hero Image Area */
-
 main {
     display: flex;
     position: relative;
@@ -23,12 +22,12 @@ main {
 }
 
 #heroStatement p {
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 #welcome {
     font-family: 'Caveat', cursive;
-    font-size: calc(30px + 5vh);
+    font-size: calc(25px + 5vh);
     color: #C66348;
 }
 
@@ -59,7 +58,6 @@ main {
     border-radius: 15px;
     padding: 1vh;
 }
-
 /* End of Hero Image Area */
 
 aside {
@@ -69,12 +67,13 @@ aside {
     width: 100%;
     background-color: #E3BBA7;
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 .stories ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
 }
 
@@ -85,17 +84,72 @@ aside {
     width: 300px;
     height: 300px;
 }
+.storyText {
+    font-family: 'PT Sans', sans-serif;
+    font-size: calc(16px + 1vh);
+    text-align: center;
+    color: #1C303F;
+}
 
+.storyStatement {
+    font-family: 'PT Sans', sans-serif;
+    font-size: calc(18px + 1vh);
+}
+
+.emoji {
+    animation: wiggle 2s infinite;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-10deg);}
+    75% {transform: rotate(10deg);}
+    100% {transform: rotate(0deg);}
+}
+.storyText li {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 1vh;
+    width: 300px;
+}
 h2 {
     font-family: 'Caveat', cursive;
     font-size: calc(10px + 5vh);
     color: #1C303F;
+    margin-bottom: 0;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    background-color: #C66348;
+    text-align: center;
+}
+
+.services h2 {
+    color: white;
+}
+
+.services p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: calc(16px + 1vh);
+    color: #1C303F;
+    list-style-type: none;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
     main {
         padding-top: 10vh;
+        padding-bottom: 2vh;
         height: fit-content;
+    }
+
+    .register {
+        font-size: calc(10px + 1vh);
+    }
+
+    .register li {
+        margin-right: 10px;
     }
 
     #heroStatement {
@@ -132,12 +186,18 @@ h2 {
     }
 
     .register {
+        margin: 0 auto;
+        padding-bottom: 2vh;
         display: flex;
         flex-direction: column;
+        width: fit-content;
+    }
+
+    .register li {
+        margin: 1vh;
     }
 
     .stories ul {
         flex-direction: column;
     }
 }
-
