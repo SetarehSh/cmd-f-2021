@@ -198,6 +198,19 @@ td {
 }
 
 /* End of Our Services Section */
+
+/* Community Section */
+.community {
+    display: flex;
+    justify-content: center;
+}
+
+.community img {
+    width: 14%;
+}
+
+/* End of Community Section */ 
+
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
     main {
         padding-top: 10vh;
@@ -261,4 +274,5 @@ td {
     .stories ul {
         flex-direction: column;
     }
+
 }
