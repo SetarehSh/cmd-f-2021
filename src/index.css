@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFFF;
+    background-color: #FFFFFF;
 }
 
 main {
@@ -7,7 +7,7 @@ main {
     position: relative;
     justify-content: space-between;
     padding-top: 15vh;
-    height: calc(100vh - 18vh);
+    height: calc(100vh - 16vh);
 }
 
 #welcome {
@@ -24,13 +24,12 @@ main {
 }
 
 aside {
+    height: 100vh;
     width: 100%;
     background-color: #E3BBA7;
 }
 
 @media only screen and (max-width: 600px) and (max-width: 1200px) {
-
-
 }
 
 @media only screen and (max-width: 599px) {
@@ -44,4 +43,10 @@ aside {
         justify-items: center;
     }
     
+#logo {
+    margin-left: 1vh;
+    height: 8vh;
+    width: auto;
+    }
 }
+

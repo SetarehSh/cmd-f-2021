@@ -1,0 +1,16 @@
+footer {
+    width: 100%; 
+    height: 12vh;
+    background-color:#F5E7E0;
+    font-family: 'Signika', sans-serif;
+    font-size: calc(12px + 0.5vh);
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#C66358; 
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 2vh;
+}
