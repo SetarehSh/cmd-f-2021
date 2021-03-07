@@ -1,0 +1,17 @@
+body {
+    background-color: #FFFFFF;
+}
+
+main {
+    padding-top: 0;
+}
+
+#aboutVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navigation {
+    padding-bottom: 0;
+}
